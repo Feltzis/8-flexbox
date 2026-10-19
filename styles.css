@@ -1,0 +1,30 @@
+html {
+    background-color: rgb(145, 249, 215);
+    font-family: "superpop-variable", sans-serif;
+    font-variation-settings: "wght" 200;
+}
+
+body {
+    margin: 0;
+}
+
+.site-links {
+    background-color: rgb(126, 126, 250);
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.site-link {
+    background-color: rgb(178, 255, 101);
+    padding: 10px;
+    color:blueviolet;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.site-link:hover {
+    background-color: rgb(247, 155, 121);
+}
